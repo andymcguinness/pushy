@@ -8,11 +8,11 @@ Feel free to [let me know](http://www.twitter.com/cmyee) if you use Pushy in one
 
 ##This Version
 
-This version is used by me (Maia McGuinness) throughout my various projects. I work heavily with Reverie for Wordpress (and child themes of it), and I have encountered some issues with sizing on IE, and had to write some functions to fix that.
+This version is used by me throughout my various projects. I work heavily with Reverie for Wordpress, and I have encountered some issues with sizing on IE, and had to write some functions to fix that--they tend to force the width of the page. It's not a perfect solution, but hey, we're working with older versions of IE here.
 
-I also found that if you open Pushy, don't close it, then resize the browser back to a desktop version, it stays open. I added function to read the size of the page and, if the size is above Reverie's (Foundation's) breakpoint && Pushy is open, it will trigger the togglePushy() function.
+I also found that if you open Pushy and resize the browser back to a desktop version, it stays open. I added function to read the size of the page and, if the size is above Reverie's (Foundation's) breakpoint && Pushy is open, it will trigger the togglePushy() function.
 
-Regardless, I love Pushy and tend to use it in many of my projects, because' it's lightweight and basically plug-and-play. It's overall a great tool for responsive design!
+Regardless, I love Pushy and tend to use it in many of my projects, because it's lightweight and basically plug-and-play. It's overall a great tool for responsive design!
 
 ##Features
 
