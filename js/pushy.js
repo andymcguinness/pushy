@@ -143,7 +143,8 @@ jQuery(function($) {
 			}
 		});
 
-		closeBtn.click(function() {
+		closeBtn.click(function(event) {
+                  event.preventDefault();
 			if (rightState) {
 				openRightPushyFallback();
 				rightState = false;
