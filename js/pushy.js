@@ -120,6 +120,9 @@ jQuery(function($) {
 		moreBtn.click(function() {
 			toggleRightPushy();
 		});
+		closeBtn.click(function() {
+			toggleRightPushy();
+		});
 		//close menu when clicking site overlay
 		siteOverlayRight.click(function(){
 			toggleRightPushy();
