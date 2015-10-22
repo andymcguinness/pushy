@@ -23,6 +23,7 @@ jQuery(function($) {
 		
 		menuBtn = $('.menu-btn'), //css class to toggle the menu
 		moreBtn = $('.more-btn'), // css class to toggle right sidebar
+		closeBtn = $('.close-btn'), // css class to toggle right sidebar
 		menuSpeed = 100, //jQuery fallback menu speed
 		menuWidth = "21.5em"; //jQuery fallback menu width
 
@@ -133,6 +134,16 @@ jQuery(function($) {
 
 		//toggle menu
 		moreBtn.click(function() {
+			if (rightState) {
+				openRightPushyFallback();
+				rightState = false;
+			} else {
+				closeRightPushyFallback();
+				rightState = true;
+			}
+		});
+
+		closeBtn.click(function() {
 			if (rightState) {
 				openRightPushyFallback();
 				rightState = false;
