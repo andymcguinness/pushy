@@ -173,19 +173,6 @@ jQuery(function($) {
 	// GENERAL FUNCTIONS & FIXES
 	function widthFix() {
 		var pageWidth;
-		setPageWidth();
-		
-		function setPageWidth(){
-			pageWidth = getWidth() + "px";
-			
-			var w = getWidth();
-			if (w < 1023) { // fixes some screwy behavior above 768px
-				container.css({"width": pageWidth});
-			} else {
-				container.css({"width": "auto"});
-			}
-		}
-		
 		if (!window.addEventListener) {
 			//IE
 			$( window ).resize(setPageWidth);
