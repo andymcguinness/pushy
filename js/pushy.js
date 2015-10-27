@@ -202,7 +202,7 @@ jQuery(function($) {
 		//close Pushy when the window gets too big
 		if (w >= 768 && $( ".pushy-left-side" ).hasClass( "pushy-left-open" )) {
 			toggleLeftPushy();
-		} else if (w >= 1023 && $( ".pushy-right-side" ).hasClass( "pushy-right-open" )) {
+		} else if (w >= 865 && $( ".pushy-right-side" ).hasClass( "pushy-right-open" )) {
 			toggleRightPushy();
 		}
 	}
